@@ -1,0 +1,10 @@
+.cookies-bar {
+  background-color: #f1f1f5;
+  width: 100vw;
+  height: 25px;
+  padding: 30px 28.8px;
+}
+.cookies-bar__text {
+  /* position: relative;
+  top: 34%; */
+}

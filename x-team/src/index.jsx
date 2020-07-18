@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import CookiesBar from './component/CookiesBar';
+
 class App extends Component {
   render() {
-    return (
-      <>
-        <h1>Esto deberia estar funcionando y sino me mato</h1>
-      </>
-    );
+    return <CookiesBar />;
   }
 }
 
