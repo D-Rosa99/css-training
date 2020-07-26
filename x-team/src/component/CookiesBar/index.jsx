@@ -5,14 +5,14 @@ import './style.css';
 export default function CookiesBar() {
   return (
     <div className="cookies-bar">
-      <span className="cookies-bar__text">
+      <span role="text">
         This website uses cookies to ensure you get the best experience on our
-        website.
+        website. &#8287;
         <a href="#" aria-label="learn more about cookies" role="button">
           Privacy Policy
         </a>
       </span>
-      <button>OK</button>
+      <button className="cookies-bar__button">OK</button>
     </div>
   );
 }
