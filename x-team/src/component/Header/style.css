@@ -1,4 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+  height: 115px;
+  align-items: center;
+}
+
 .logo {
   width: 55px;
   background-color: white;
+  margin: 15px;
+}
+.nav-item-list {
+  list-style: none;
+  display: flex;
+}
+.nav-item-list__item {
+  padding: 15px;
+}
+.hire-button {
+  background-color: #ec3754;
+  color: #f4aec0;
+  width: 136px;
+  height: 38px;
+  text-align: center;
+  line-height: 37px;
+  margin: 20px;
 }
