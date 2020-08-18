@@ -1,0 +1,11 @@
+.hero {
+  display: flex;
+  /* flex: 1; */
+  justify-content: center;
+  background-color: lightgray;
+  height: 51em;
+}
+.hero-title {
+  /* display: flex; */
+  /* justify-content: center; */
+}

@@ -2,9 +2,10 @@ body {
   margin: 0;
 }
 .cookies-bar {
+  display: none;
   background-color: #f1f1f5;
   bottom: 0;
-  display: flex;
+  /* display: flex; */
   height: 25px;
   justify-content: space-between;
   padding: 30px 28.8px;
